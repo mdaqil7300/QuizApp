@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+html{
+    font-size: 25px;
+}
+.main-div{
+    background-color: rgb(133, 241, 205);
+    width: 100vw;
+    min-height: 100vh;
+}
+.inner-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    background-color: beige;
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.inner-div li{
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 50;
+    margin-top: 15px;
+   
+}
+.inner-div h2{
+    font-size: 23px;
+    font-weight: 350;
+    margin: 15px;
+}
+input{
+    cursor: pointer;    
+}
+
+
+#submit, .btn{
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+    border: none;
+    display: block;
+    background-color: rgb(121, 154, 250);
+    padding: 7px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+#submit:hover{
+    background-color: rgb(33, 1, 236);
+    cursor: pointer;
+}
+#showscore{
+    background-color: slategray;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#showscore h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#showscore .btn{
+    margin-top: 20px;
+    background-color: rgb(170, 247, 221);
+    color: rgb(104, 84, 84);
+    cursor: pointer;
+}
+
+#showscore .btn:hover{
+    background-color: rgb(90, 169, 172);
+}
+
+.container{
+    display: none;
+}
